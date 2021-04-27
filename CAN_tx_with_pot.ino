@@ -6,7 +6,7 @@ int potValue=0;         // SET pot initial value =0
 
 struct can_frame canMsg;      // uses structure to store CAN frame-- variable is canMsg
 // struct as 3 members---- can_id, can_dlc, data[8]
-MCP2515 mcp2515(53);          // CS pin as D53
+MCP2515 mcp2515(1);          // CS pin as D53
 
 void setup() 
 {
